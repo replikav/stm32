@@ -1,0 +1,20 @@
+12:47:18 **** Incremental Build of configuration Debug for project 001_SYSTEM_CLOCK_CONFIG_AND_PLL ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F4XX -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -DUSE_STM32F4_DISCOVERY -DHSE_VALUE=8000000 -I../src -I../Libraries/CMSIS/Include -I../Libraries/Device/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../Utilities/STM32F4-Discovery -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+..\src\main.c: In function 'main':
+..\src\main.c:54:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\src\main.c:14:7: warning: unused variable 'i' [-Wunused-variable]
+   int i = 0;
+       ^
+At top level:
+..\src\main.c:51:10: warning: 'EVAL_AUDIO_GetSampleCallBack' defined but not used [-Wunused-function]
+ uint16_t EVAL_AUDIO_GetSampleCallBack(void){
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\main.c:42:6: warning: 'EVAL_AUDIO_TransferComplete_CallBack' defined but not used [-Wunused-function]
+ void EVAL_AUDIO_TransferComplete_CallBack(uint32_t pBuffer, uint32_t Size){
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+12:47:19 Build Finished (took 187ms)
+

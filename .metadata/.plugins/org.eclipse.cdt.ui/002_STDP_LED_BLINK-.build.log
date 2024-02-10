@@ -1,0 +1,11 @@
+20:32:51 **** Incremental Build of configuration Debug for project 002_STDP_LED_BLINK- ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\src\main.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -DSTM32F4XX -DSTM32F40XX -DUSE_STDPERIPH_DRIVER -DUSE_STM32F4_DISCOVERY -DHSE_VALUE=8000000 -I../src -I../Libraries/CMSIS/Include -I../Libraries/Device/STM32F4xx/Include -I../Libraries/STM32F4xx_StdPeriph_Driver/inc -I../Utilities/STM32F4-Discovery -O0 -ffunction-sections -fdata-sections -g -fstack-usage -Wall -specs=nano.specs -o src\main.o 
+..\src\main.c: In function 'GPIO_Config':
+..\src\main.c:13:21: error: 'GPIO_InitStruct' undeclared (first use in this function)
+  GPIO_Init(GPIOD , &GPIO_InitStruct);
+                     ^~~~~~~~~~~~~~~
+..\src\main.c:13:21: note: each undeclared identifier is reported only once for each function it appears in
+
+20:32:52 Build Finished (took 570ms)
+

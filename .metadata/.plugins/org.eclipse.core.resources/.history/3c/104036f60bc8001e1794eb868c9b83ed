@@ -1,0 +1,17 @@
+stm32f4_discovery_audio_codec.c:881:17:Codec_WriteRegister	24	static
+stm32f4_discovery_audio_codec.c:812:17:Codec_VolumeCtrl	16	static
+stm32f4_discovery_audio_codec.c:467:13:Audio_MAL_IRQHandler	32	static
+stm32f4_discovery_audio_codec.c:862:13:Codec_Reset	8	static
+stm32f4_discovery_audio_codec.c:276:6:EVAL_AUDIO_SetAudioInterface	0	static
+stm32f4_discovery_audio_codec.c:342:10:EVAL_AUDIO_DeInit	24	static
+stm32f4_discovery_audio_codec.c:392:10:EVAL_AUDIO_PauseResume	16	static
+stm32f4_discovery_audio_codec.c:418:10:EVAL_AUDIO_Stop	16	static
+stm32f4_discovery_audio_codec.c:444:10:EVAL_AUDIO_VolumeCtl	0	static
+stm32f4_discovery_audio_codec.c:456:10:EVAL_AUDIO_Mute	0	static
+stm32f4_discovery_audio_codec.c:567:6:DMA1_Stream7_IRQHandler	0	static
+stm32f4_discovery_audio_codec.c:577:6:DMA1_Stream0_IRQHandler	0	static
+stm32f4_discovery_audio_codec.c:587:6:SPI3_IRQHandler	8	static
+stm32f4_discovery_audio_codec.c:1509:6:Audio_MAL_Play	16	static
+stm32f4_discovery_audio_codec.c:359:10:EVAL_AUDIO_Play	16	static
+stm32f4_discovery_audio_codec.c:1614:6:DAC_Config	32	static
+stm32f4_discovery_audio_codec.c:318:10:EVAL_AUDIO_Init	64	static
